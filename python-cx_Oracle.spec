@@ -8,6 +8,7 @@ License:	BSD
 Vendor:		Anthony Tuininga <anthony@computronix.com>
 Group:		Development/Libraries
 Source0:	http://www.computronix.com/download/%{module}-%{version}.tar.gz
+# Source0-md5:	2afce60ff9adc02aa3a54c8b12042a92
 URL:		http://www.computronix.com/utilities.html
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
