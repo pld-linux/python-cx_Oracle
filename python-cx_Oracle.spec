@@ -2,14 +2,13 @@
 Summary:	Python interface to Oracle
 Summary(pl):	Interfejs Pythona do Oracle'a
 Name:		python-%{module}
-Version:	2.5a
+Version:	4.1
 Release:	0.1
 License:	BSD
-Vendor:		Anthony Tuininga <anthony@computronix.com>
 Group:		Development/Libraries
-Source0:	http://www.computronix.com/download/%{module}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
 # Source0-md5:	2afce60ff9adc02aa3a54c8b12042a92
-URL:		http://www.computronix.com/utilities.html
+URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
