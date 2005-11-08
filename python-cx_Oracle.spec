@@ -7,7 +7,7 @@ Release:	0.1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
-# Source0-md5:	2afce60ff9adc02aa3a54c8b12042a92
+# Source0-md5:	5a6b055008a70bf9dc06669f4a43e579
 URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
