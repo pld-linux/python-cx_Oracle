@@ -3,7 +3,7 @@ Summary:	Python interface to Oracle
 Summary(pl):	Interfejs Pythona do Oracle'a
 Name:		python-%{module}
 Version:	4.1
-Release:	0.1
+Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
