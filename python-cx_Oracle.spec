@@ -2,12 +2,12 @@
 Summary:	Python interface to Oracle
 Summary(pl):	Interfejs Pythona do Oracle'a
 Name:		python-%{module}
-Version:	4.2
+Version:	4.2.1
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
-# Source0-md5:	fe878a70d3695cea2bb5533044f8f833
+# Source0-md5:	3acc8290ad5d611eacb25a5229e8fa87
 URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
