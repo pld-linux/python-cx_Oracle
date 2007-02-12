@@ -1,6 +1,6 @@
 %define	module	cx_Oracle
 Summary:	Python interface to Oracle
-Summary(pl):	Interfejs Pythona do Oracle'a
+Summary(pl.UTF-8):   Interfejs Pythona do Oracle'a
 Name:		python-%{module}
 Version:	4.2.1
 Release:	1
@@ -16,9 +16,9 @@ Python interface to Oracle conforming to the Python DB API 2.0
 specification. See
 http://www.python.org/topics/database/DatabaseAPI-2.0.html.
 
-%description -l pl
-Interfejs Pythona do Oracle, zgodny ze specyfikacj± Python DB API 2.0.
-Wiêcej informacji pod adresem
+%description -l pl.UTF-8
+Interfejs Pythona do Oracle, zgodny ze specyfikacjÄ… Python DB API 2.0.
+WiÄ™cej informacji pod adresem
 http://www.python.org/topics/database/DatabaseAPI-2.0.html.
 
 %prep
