@@ -1,6 +1,6 @@
 %define	module	cx_Oracle
 Summary:	Python interface to Oracle
-Summary(pl.UTF-8):   Interfejs Pythona do Oracle'a
+Summary(pl.UTF-8):	Interfejs Pythona do Oracle'a
 Name:		python-%{module}
 Version:	4.2.1
 Release:	1
