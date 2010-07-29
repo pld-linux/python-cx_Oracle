@@ -11,6 +11,8 @@ Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
 URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define _preserve_env %_preserve_env_base ORACLE_HOME
+
 %description
 Python interface to Oracle conforming to the Python DB API 2.0
 specification. See
