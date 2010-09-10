@@ -2,12 +2,13 @@
 Summary:	Python interface to Oracle
 Summary(pl.UTF-8):	Interfejs Pythona do Oracle'a
 Name:		python-%{module}
-Version:	4.3.3
+Version:	5.0.4
 Release:	1
 License:	BSD
 Group:		Development/Libraries
 Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
-# Source0-md5:	be3aee0922b3b3ae714d2637dd77fa0e
+# Source0-md5:	7bcc85eab309960e49d61d7b7f41af6c
+Patch0:		%{name}-instantclient.patch
 URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -25,6 +26,7 @@ http://www.python.org/topics/database/DatabaseAPI-2.0.html.
 
 %prep
 %setup -q -n %{module}-%{version}
+%patch0 -p1
 
 %build
 env CFLAGS="%{rpmcflags}" python setup.py build
