@@ -1,0 +1,11 @@
+--- cx_Oracle-5.0.4/setup.py~	2010-07-20 21:35:00.000000000 +0200
++++ cx_Oracle-5.0.4/setup.py	2010-09-10 18:52:10.178404502 +0200
+@@ -166,7 +166,7 @@
+     libDirs = [libPath, oracleHome]
+     libs = ["clntsh"]
+     possibleIncludeDirs = ["rdbms/demo", "rdbms/public", "network/public",
+-            "sdk/include"]
++            "sdk/include", "/usr/include/oracle/client" ]
+     if sys.platform == "darwin":
+         possibleIncludeDirs.append("plsql/public")
+     includeDirs = []
