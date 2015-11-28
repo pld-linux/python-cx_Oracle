@@ -29,11 +29,11 @@ http://www.python.org/topics/database/DatabaseAPI-2.0.html.
 %patch0 -p1
 
 %build
-env CFLAGS="%{rpmcflags}" python setup.py build
+env CFLAGS="%{rpmcflags}" %py_build
 
 %install
 rm -rf $RPM_BUILD_ROOT
-python setup.py install --root=$RPM_BUILD_ROOT --record=INSTALLED_FILES
+%py_install --record=INSTALLED_FILES
 
 %clean
 rm -rf $RPM_BUILD_ROOT
