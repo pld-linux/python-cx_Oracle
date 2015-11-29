@@ -10,6 +10,7 @@ Source0:	http://dl.sourceforge.net/cx-oracle/%{module}-%{version}.tar.gz
 # Source0-md5:	d2697493a40c9d46c9b7c1c210b61671
 Patch0:		%{name}-instantclient.patch
 URL:		http://www.cxtools.net/default.aspx?nav=cxorlb
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define _preserve_env %_preserve_env_base ORACLE_HOME
