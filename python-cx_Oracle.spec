@@ -27,7 +27,7 @@ http://www.python.org/topics/database/DatabaseAPI-2.0.html.
 
 %prep
 %setup -q -n %{module}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 env CFLAGS="%{rpmcflags}" %py_build
